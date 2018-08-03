@@ -13,7 +13,7 @@ $newsItem
    ->addMedia($pathToFile)
    ->withManipulations([
       'thumb' => ['orientation' => '90'],
-   );
+   ]);
 ```
 
 The package will regenerate all files (conversions) using the saved manipulation as the first manipulation when creating each derived image.
